@@ -5,7 +5,7 @@ from zhipuai import ZhipuAI
 from transformers import AutoTokenizer
 
 # 初始化 client（请填写你的 API key）
-client = ZhipuAI(api_key="3c87b4c80506418a8882bef064ec2199.BaNPFlZcQHfJOFyg")
+client = ZhipuAI(api_key="你的API_key")
 
 # 初始化 tokenizer（使用 chatglm3 为例）
 tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm3-6b", trust_remote_code=True)
